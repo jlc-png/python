@@ -1,7 +1,5 @@
 import ybc_trans as t
 import ybc_box as b
-
-
 while True:
     ch = b.choicebox('您想将中文成翻译英文，还是将英文翻译成中文。请选择：',['中译英','英译中','退出'])
     if ch == '中译英':
