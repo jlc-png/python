@@ -1,0 +1,3 @@
+name = input('What\'s your name?')
+print("Hello "+name+",\nThanks so much for your order. We will be shipping it tonight. It will have a special greeting of - "+name+" is super awesome, "+name+" is the best person in the whole wide world. \nSincerely, \nChocolates.co")
+print("Hello <NAME>,\nThanks so much for your order. We will be shipping it tonight. It will have a special greeting of - <NAME> is super awesome, <NAME> is the best person in the whole wide world. <NAME> is super awesome. <NAME> is super awesome. <NAME> is super awesome. <NAME> is super awesome. <NAME> is super awesome. <NAME> is super awesome. <NAME> is super awesome. <NAME> is super awesome.  \nSincerely, \nChocolates.co".replace("<NAME>",name))
